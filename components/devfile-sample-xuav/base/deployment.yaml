@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: devfile-sample-xuav
     spec:
       containers:
-      - image: nodejs-image:latest
+      - image: quay.io/pmacik-testing/tkrw-pr712-0075-0012-tenant/tkrw-pr712-0075-0012-app/devfile-sample-xuav@sha256:114d8ab8450c8cbabe2a6d6131ec694cce6479cc68badee8da87ede3c940b63e
         name: my-nodejs
         ports:
         - containerPort: 3001
